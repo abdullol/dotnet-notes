@@ -1,10 +1,10 @@
 Filters
 
-1 - Authorize Filter
-2 - Resource Filter
-3 - Action Filter
-4 - Exception Filter
-5 - Result Filter
+1 - Authorize Filter\
+2 - Resource Filter\
+3 - Action Filter\
+4 - Exception Filter \
+5 - Result Filter\
 
 # Async Await Operation
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/#start-tasks-concurrently
