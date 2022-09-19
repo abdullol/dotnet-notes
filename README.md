@@ -48,5 +48,4 @@ are done in one single transaction, rather then doing multiple database transact
 Class that usually has operations to save, update, delete
 # Data Transfer Object (DTO).
 It usually just holds the data
-# Pagination
-
+# Pagination:
