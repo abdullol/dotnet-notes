@@ -32,3 +32,21 @@ public abstract void MyMethod();
 ** Override
 ** Virtual 
 ** Static
+
+
+# The Repository pattern
+- Repositories are classes or components that encapsulate the logic required to access data sources.
+- They centralize common data access functionality, providing better maintainability and decoupling technology used to access the domain model layer 
+- repository is nothing but a class definecd for that entity containing all possible operationson that specific entity
+- For example, a repository for an entity Customer, will have basic CRUD operations and any other possible operations related to it.
+# Unit of Work
+- it's refered to as single transaction containing multiple operations (CRUD)
+-  it means that for a specific user action (say registration on a website), all the transactions like insert/update/delete and so on \
+are done in one single transaction, rather then doing multiple database transactions. 
+
+# Data Access Object (DAO)
+Class that usually has operations to save, update, delete
+# Data Transfer Object (DTO).
+It usually just holds the data
+# Pagination
+
