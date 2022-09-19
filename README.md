@@ -6,20 +6,20 @@ Filters
 4 - Exception Filter
 5 - Result Filter
 
-** Async Await Operation
+# Async Await Operation
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/#start-tasks-concurrently
 
-** C# Reflection
+# C# Reflection
 
-** Sealed 
-** Abstract
+# Sealed 
+# Abstract
 - An abstract class cannot be instantiated.
 - An abstract class may contain abstract methods and accessors.
 - It is not possible to modify an abstract class with the sealed modifier because the two modifiers have opposite meanings. The sealed modifier prevents a class from
 being inherited and the abstract modifier requires a class to be inherited.
 - A non-abstract class derived from an abstract class must include actual implementations of all inherited abstract methods and accessors.
 
-** Abstract Method
+# Abstract Method
 - An abstract method is implicitly a virtual method.
 - Abstract method declarations are only permitted in abstract classes.
 Because an abstract method declaration provides no actual implementation, there is no method body; the method declaration simply ends with a semicolon and there are no curly braces ({ }) following the signature. 
@@ -28,10 +28,9 @@ public abstract void MyMethod();
 - The implementation is provided by a method override, which is a member of a non-abstract class.
 - It is an error to use the static or virtual modifiers in an abstract method declaration.
 - It is an error to use the abstract modifier on a static property.
-
-** Override
-** Virtual 
-** Static
+# Override
+# Virtual 
+# Static
 
 
 # The Repository pattern
