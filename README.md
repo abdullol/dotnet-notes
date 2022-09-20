@@ -38,10 +38,15 @@ public abstract void MyMethod();
 - They centralize common data access functionality, providing better maintainability and decoupling technology used to access the domain model layer 
 - repository is nothing but a class definecd for that entity containing all possible operationson that specific entity
 - For example, a repository for an entity Customer, will have basic CRUD operations and any other possible operations related to it.
+- it miniminzed suplicate query logic
+- promote testability
+- 
 # Unit of Work
 - it's refered to as single transaction containing multiple operations (CRUD)
 -  it means that for a specific user action (say registration on a website), all the transactions like insert/update/delete and so on \
 are done in one single transaction, rather then doing multiple database transactions. 
+- it s alayer between controller and repo, this layer is a cetralized store for all the respos to receive the same isntance of dbcontext which will ensure that \
+all repos receive same instance of dbcontext which will help to maintain the consistancy considering our transaction will either be success or will fail for all 
 
 # Data Access Object (DAO)
 Class that usually has operations to save, update, delete
